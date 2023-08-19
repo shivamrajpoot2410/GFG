@@ -11,7 +11,7 @@ class Solution
     vector<int> subarraySum(vector<int>arr, int n, long long s)
     {
         // Your code here
-        int j=0;
+                int j=0;
         long long sum=0;
         if(s==sum) return {-1};
         for(int i=0;i<n;i++){
